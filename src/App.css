@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  padding: 0 24px;
+  display: inline-block;
+  height: 48px;
+  border: 1px solid transparent;
+  border-radius: 48px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  background: none;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+}
+
+.button-action {
+  background: #2028cd;
+  border-color: #2028cd;
+  color: #fff;
+}
+
+.message {
+  position: relative;
+  text-align: left;
+  padding: 24px;
+  background: #e8fdff;
+  border: 1px solid #00c8ff;
+  box-shadow: inset 8px 0 #00c8ff;
+}

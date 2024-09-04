@@ -1,0 +1,12 @@
+@use '../../../utils/mixins/mixins.scss' as mixins;
+
+.battleItem {
+    width: mixins.$middle-indent;
+    height: mixins.$middle-indent;
+
+    @include mixins.tablet {
+        width: mixins.$big-indent;
+        height: mixins.$big-indent;
+    }
+}
+    

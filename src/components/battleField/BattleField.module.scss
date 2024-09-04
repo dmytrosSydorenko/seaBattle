@@ -1,0 +1,16 @@
+@use '../../utils/mixins/mixins.scss' as mixins;
+
+.battleField {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 0;
+    margin-bottom: mixins.$small-indent;
+    justify-items: center;
+    align-items: center;
+}
+
+.loading {
+    padding: 50px 0;
+    grid-column: 1 / -1;
+}
+    

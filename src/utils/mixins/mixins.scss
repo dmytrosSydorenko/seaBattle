@@ -1,0 +1,10 @@
+$color-black: #000;
+$small-indent: 20px;
+$middle-indent: 30px;
+$big-indent: 40px;
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}

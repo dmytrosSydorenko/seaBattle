@@ -1,0 +1,6 @@
+{
+    "turnsLabel": "You have made {qty} turns",
+    "setNewGameLabel": "Set new game",
+    "loadingLabel": "Loading...",
+    "successMessage": "You have won the game!"
+}
