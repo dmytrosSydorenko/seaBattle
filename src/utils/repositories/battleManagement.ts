@@ -27,7 +27,7 @@ function getShipData(maxSize: number): ShipData {
 
 
     return {
-        shipOrientation: shipOrientation,
+        shipOrientation,
         shipLength,
         positionX,
         positionY
